@@ -13,8 +13,39 @@ public class Array_Java {
 		arr[4]=6;
 		
 		int [] array2= {1,2,3,4,5,6};
-		System.out.println(arr[0]);
-		System.out.println(array2[4]);
+		/*
+		 * System.out.println(arr[0]); System.out.println(array2[4]);
+		 */
+		
+		//For Loop
+		/*
+		 * for(int i=0;i<arr.length;i++) {
+		 * 
+		 * System.out.println(arr[i]);
+		 * 
+		 * }
+		 */
+
+		String []name = {"Rajat","Sharan","Cypress"};
+		/*
+		 * for(int i=0;i<name.length;i++) {
+		 * 
+		 * System.out.println(name[i]);
+		 * 
+		 * }
+		 */
+		//Enhanced for loop declaration & using Conditional statements inside the loops
+		
+		for(String s:name) {
+			
+			System.out.println(s);
+			
+		}
+		
+		
+		
+		
+		
 	}
 
 }
