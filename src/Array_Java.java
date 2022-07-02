@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Array_Java {
 
@@ -41,6 +42,10 @@ public class Array_Java {
 			System.out.println(s);
 			
 		}
+		
+		ArrayList<String> a= new ArrayList<String>();
+		a.add("Rajat");
+		System.out.println(a.get(0));
 		
 		
 		
