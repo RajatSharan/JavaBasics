@@ -22,7 +22,7 @@ public class CoreJavaBasics3 {
 		System.out.println(n[1].trim());
 		for (int i=s5.length()-1 ; i>=0;i--) {
 			
-			System.out.println(s5.charAt(i)); //Reverse String question
+			System.out.println(s5.charAt(i)); //Reverse String questions
 			
 		}
 	 
